@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB ESSENTIAL -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- MDB PLUGINS -->
+    <link rel="stylesheet" href="plugins/css/all.min.css" />
+    <!-- Custom styles -->
+    <style></style>
+  </head>
+
+
+
+
+
+
+
+
+
+
+  <body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--Main Navigation-->
+<header>
+  <!-- Jumbotron -->
+  <div class="p-3 text-center bg-white border-bottom shadow-4">
+    <div class="container">
+      <div class="row">
+        <div
+             class="
+                    col-md-4
+                    d-flex
+                    justify-content-center justify-content-md-start
+                    mb-3 mb-md-0
+                    "
+             >
+          <a href="#!" class="ms-md-2">
+            <img
+                 src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
+                 height="35"
+                 />
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <form class="d-flex input-group w-auto my-auto mb-3 mb-md-0">
+            <input
+                   autocomplete="off"
+                   type="search"
+                   class="form-control rounded"
+                   placeholder="Search"
+                   />
+            <span class="input-group-text border-0 d-none d-lg-flex"
+                  ><i class="fas fa-search"></i
+              ></span>
+          </form>
+        </div>
+
+        <div
+             class="
+                    col-md-4
+                    d-flex
+                    justify-content-center justify-content-md-end
+                    align-items-center
+                    "
+             >
+          <div class="d-flex">
+            <!-- Cart -->
+            <a class="text-reset me-3" href="#">
+              <span><i class="fas fa-shopping-cart"></i></span>
+              <span
+                    class="badge rounded-pill badge-notification bg-danger"
+                    >1</span
+                >
+            </a>
+
+            <!-- Notification -->
+            <div class="dropdown">
+              <a
+                 class="text-reset me-3 dropdown-toggle hidden-arrow"
+                 href="#"
+                 id="navbarDropdownMenuLink"
+                 role="button"
+                 data-mdb-dropdown-init
+                 aria-expanded="false"
+                 >
+                <i class="fas fa-bell"></i>
+              </a>
+              <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownMenuLink"
+                  >
+                <li><a class="dropdown-item" href="#">Some news</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Another news</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                     >Something else here</a
+                    >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Languages -->
+            <div class="dropdown">
+              <a
+                 class="text-reset dropdown-toggle me-3 hidden-arrow"
+                 href="#"
+                 id="navbarDropdown"
+                 role="button"
+                 data-mdb-dropdown-init
+                 aria-expanded="false"
+                 >
+                <i class="united kingdom flag m-0"></i>
+              </a>
+              <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdown"
+                  >
+                <li>
+                  <a class="dropdown-item" href="#"
+                     ><i class="united kingdom flag"></i>English
+                    <i class="fa fa-check text-success ms-2"></i
+                      ></a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                     ><i class="poland flag"></i>Polski</a
+                    >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                     ><i class="china flag"></i>中文</a
+                    >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                     ><i class="japan flag"></i>日本語</a
+                    >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                     ><i class="germany flag"></i>Deutsch</a
+                    >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                     ><i class="france flag"></i>Français</a
+                    >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                     ><i class="spain flag"></i>Español</a
+                    >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                     ><i class="russia flag"></i>Русский</a
+                    >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                     ><i class="portugal flag"></i>Português</a
+                    >
+                </li>
+              </ul>
+            </div>
+
+            <!-- User -->
+            <div class="dropdown">
+              <a
+                 class="
+                        text-reset
+                        dropdown-toggle
+                        d-flex
+                        align-items-center
+                        hidden-arrow
+                        "
+                 href="#"
+                 id="navbarDropdownMenuLink"
+                 role="button"
+                 data-mdb-dropdown-init
+                 aria-expanded="false"
+                 >
+                <img
+                     src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg"
+                     class="rounded-circle"
+                     height="22"
+                     alt=""
+                     loading="lazy"
+                     />
+              </a>
+              <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownMenuLink"
+                  >
+                <li><a class="dropdown-item" href="#">My profile</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Jumbotron -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <!-- Container wrapper -->
+    <div
+         class="container justify-content-center justify-content-md-between"
+         >
+      <!-- Left links -->
+      <ul class="navbar-nav flex-row">
+        <li class="nav-item me-2 me-lg-0">
+          <a
+             class="nav-link"
+             href="#"
+             role="button"
+             data-mdb-toggle="sidenav"
+             data-mdb-target="#sidenav-1"
+             class="btn shadow-0 p-0 me-3" data-mdb-ripple-init
+             aria-controls="#sidenav-1"
+             aria-haspopup="true"
+             >
+            <i class="fas fa-bars me-1"></i>
+            <span>Categories</span>
+          </a>
+        </li>
+        <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+          <a class="nav-link" href="#">Bestsellers</a>
+        </li>
+        <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+          <a class="nav-link" href="#">Inspirations</a>
+        </li>
+        <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+
+      <button
+              class="btn btn-outline-primary" data-mdb-ripple-init
+              data-mdb-ripple-color="dark"
+              type="button"
+              >
+        Download app<i class="fas fa-download ms-2"></i>
+      </button>
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+
+  <!-- Sidenav -->
+  <div
+       id="sidenav-1"
+       class="sidenav"
+       data-mdb-sidenav-init
+       role="navigation"
+       data-mdb-hidden="true"
+       data-mdb-accordion="true"
+       >
+    <ul class="sidenav-menu">
+      <li class="sidenav-item">
+        <a class="sidenav-link"
+           ><i class="fas fa-layer-group pe-3"></i
+          ><span>Categories</span></a
+          >
+        <ul class="sidenav-collapse show">
+          <li class="sidenav-item">
+            <a class="sidenav-link">Dresses</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link">Shirts</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link">Jeans</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link">Shoes</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link">Accessories</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link">Jewelry</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidenav-item">
+        <a class="sidenav-link"
+           ><i class="fas fa-gem pe-3"></i><span>Brands</span></a
+          >
+        <ul class="sidenav-collapse">
+          <li class="sidenav-item">
+            <a class="sidenav-link">Brand 1</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link">Brand 2</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link">Brand 3</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link">Brand 4</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidenav-item">
+        <a class="sidenav-link"
+           ><i class="fas fa-gift pe-3"></i><span>Discounts</span></a
+          >
+        <ul class="sidenav-collapse">
+          <li class="sidenav-item">
+            <a class="sidenav-link">-70%</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link">-50%</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link">Any</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidenav-item">
+        <a class="sidenav-link"
+           ><i class="fas fa-fire-alt pe-3"></i><span>Popular</span></a
+          >
+        <ul class="sidenav-collapse">
+          <li class="sidenav-item">
+            <a class="sidenav-link">Jewelry</a>
+          </li>
+          <li class="sidenav-item">
+            <a class="sidenav-link">Snickers</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidenav-item">
+        <a class="sidenav-link"
+           ><i class="fab fa-hotjar pe-3"></i
+          ><span>Today's bestseller</span></a
+          >
+        <div class="card mx-3">
+          <div
+               class="bg-image hover-zoom" data-mdb-ripple-init
+               data-mdb-ripple-color="light"
+               >
+            <img
+                 src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/shoes%20(3).jpg"
+                 class="w-100"
+                 />
+            <a href="#!">
+              <div class="mask">
+                <div
+                     class="
+                            d-flex
+                            justify-content-start
+                            align-items-end
+                            h-100
+                            "
+                     >
+                  <h5><span class="badge bg-danger ms-2">-10%</span></h5>
+                </div>
+              </div>
+              <div class="hover-overlay">
+                <div
+                     class="mask"
+                     style="background-color: rgba(251, 251, 251, 0.15)"
+                     ></div>
+              </div>
+            </a>
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <p class="mb-2">Pink snickers</p>
+            </a>
+            <p class="mb-0">
+              <s>$61.99</s
+                ><strong class="ms-2 text-danger">$50.99</strong>
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- Sidenav -->
+
+  <!-- Background image -->
+  <div
+       id="intro"
+       class="bg-image shadow-1-strong"
+       style="
+              background-image: url(https://mdbootstrap.com/img/new/slides/310.jpg);
+              height: 500px;
+              "
+       >
+    <div
+         class="mask text-white"
+         style="background-color: rgba(0, 0, 0, 0.6)"
+         >
+      <div
+           class="
+                  container
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  text-center
+                  h-100
+                  "
+           >
+        <div class="text-white" data-mdb-theme="dark">
+          <h1 class="mb-3">Autumn sale</h1>
+          <h4 class="mb-4">Promotions up to 70%!</h4>
+          <a
+             class="btn btn-outline-light btn-lg mb-3" data-mdb-ripple-init
+             href="#!"
+             role="button"
+             >See the promotional offer
+            <i class="fas fa-gem ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Background image -->
+</header>
+<!--Main Navigation-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="multi-carousel" data-mdb-multi-carousel-init data-mdb-interval="3000" data-mdb-items="5">
+    <div class="d-flex justify-content-center m-2 mb-3">
+        <button data-mdb-button-init class="carousel-control-prev btn btn-pink btn-floating mx-3" type="button" tabindex="0" data-mdb-slide="prev">
+            <i class="fas fa-angle-left fa-lg"></i>
+        </button>
+        <button data-mdb-button-init class="carousel-control-next btn btn-pink btn-floating mx-3" type="button" tabindex="0" data-mdb-slide="next">
+            <i class="fas fa-angle-right fa-lg"></i>
+        </button>
+    </div>
+    <div class="multi-carousel-inner">
+        <div class="multi-carousel-item">
+            <div class="card m-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(4).jpg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">Moda</h5>
+                    <p class="card-text">Plan B</p>
+                    <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                    <p class="price mb-0">9,99 $</p>
+                </div>
+            </div>
+        </div>
+        <div class="multi-carousel-item">
+            <div class="card m-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(1).jpg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">Indie City</h5>
+                    <p class="card-text">Pixies</p>
+                    <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="far fa-star"></i></li>
+                    </ul>
+                    <p class="price mb-0">14,99 $</p>
+                </div>
+            </div>
+        </div>
+        <div class="multi-carousel-item">
+            <div class="card m-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(7).jpg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">Year</h5>
+                    <p class="card-text">Indielectru</p>
+                    <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                    </ul>
+                    <p class="price mb-0">12,99 $</p>
+                </div>
+            </div>
+        </div>
+        <div class="multi-carousel-item">
+            <div class="card m-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(8).jpg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">L'Hiver Indien</h5>
+                    <p class="card-text">Baloji</p>
+                    <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                    <p class="price mb-0">10,99 $</p>
+                </div>
+            </div>
+        </div>
+        <div class="multi-carousel-item">
+            <div class="card m-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(6).jpg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">Indie Funk</h5>
+                    <p class="card-text">Generation Funk</p>
+                    <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                    </ul>
+                    <p class="price mb-0">19,99 $</p>
+                </div>
+            </div>
+        </div>
+        <div class="multi-carousel-item">
+            <div class="card m-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(2).jpg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">Rockferry</h5>
+                    <p class="card-text">Duffy</p>
+                    <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                    <p class="price mb-0">17,99 $</p>
+                </div>
+            </div>
+        </div>
+        <div class="multi-carousel-item">
+            <div class="card m-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(3).jpg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">Indie Pop</h5>
+                    <p class="card-text">Various artists</p>
+                    <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="far fa-star"></i></li>
+                    </ul>
+                    <p class="price mb-0">9,99 $</p>
+                </div>
+            </div>
+        </div>
+        <div class="multi-carousel-item">
+            <div class="card m-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(5).jpg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">Rock 'N' Roll</h5>
+                    <p class="card-text">Chuck Berry</p>
+                    <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                    <p class="price mb-0">29,99 $</p>
+                </div>
+            </div>
+        </div>
+        <div class="multi-carousel-item">
+            <div class="card m-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(9).jpg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">High Voltage</h5>
+                    <p class="card-text">AC/DC</p>
+                    <ul class="list-unstyled list-inline my-2">
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                    </ul>
+                    <p class="price mb-0">24,99 $</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Container for demo purpose -->
+<div class="container my-5 py-5">
+
+  <!--Section: Design Block-->
+  <section>
+
+     <h3 class="mb-5 between">食材介紹 </h3>
+
+    <div class="lightbox" data-mdb-lightbox-init>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg"
+            data-mdb-img="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg" alt="Lightbox image 1"
+            class="w-100 shadow-1-strong rounded" />
+        </div>
+        <div class="col-lg-4 mb-4">
+          <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(48).jpg"
+            data-mdb-img="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(48).jpg" alt="Lightbox image 2"
+            class="w-100 shadow-1-strong rounded" />
+        </div>
+        <div class="col-lg-4 mb-4">
+          <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg"
+            data-mdb-img="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg" alt="Lightbox image 3"
+            class="w-100 shadow-1-strong rounded" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(44).jpg"
+            data-mdb-img="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(44).jpg" alt="Lightbox image 1"
+            class="w-100 shadow-1-strong rounded" />
+        </div>
+        <div class="col-lg-4 mb-4">
+          <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(41).jpg"
+            data-mdb-img="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(41).jpg" alt="Lightbox image 2"
+            class="w-100 shadow-1-strong rounded" />
+        </div>
+        <div class="col-lg-4">
+          <img src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(47).jpg"
+            data-mdb-img="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(47).jpg" alt="Lightbox image 3"
+            class="w-100 shadow-1-strong rounded" />
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--Section: Design Block-->
+
+</div>
+<!-- Container for demo purpose -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 客製化訂單區 -->
+<div class="container my-5 py-5">
+
+  <h3 class="text-center mb-4">客製化訂單</h3>
+
+  <!-- 上方三欄輸入框 -->
+  <div class="row mb-4 text-center">
+    <div class="col-md-4 mb-3">
+      <input type="text" class="form-control" placeholder="輸入內容 1">
+    </div>
+    <div class="col-md-4 mb-3">
+      <input type="text" class="form-control" placeholder="輸入內容 2">
+    </div>
+    <div class="col-md-4 mb-3">
+      <input type="text" class="form-control" placeholder="輸入內容 3">
+    </div>
+     <div class="col-md-4 mb-3">
+      <input type="text" class="form-control" placeholder="輸入內容 3">
+    </div>
+     <div class="col-md-4 mb-3">
+      <input type="text" class="form-control" placeholder="輸入內容 3">
+    </div>
+     <div class="col-md-4 mb-3">
+      <input type="text" class="form-control" placeholder="輸入內容 3">
+    </div>
+  </div>
+
+<!-- 六張圖片 -->
+<div class="row text-center">
+
+  <!-- 單一卡片，複製六個 -->
+  <div class="col-md-4 mb-4">
+    <div class="custom-card select-card">
+      <img src="https://via.placeholder.com/300x180" class="w-100">
+      <div class="checkbox-box"></div>
+      <p class="mt-2">商品名稱 A</p>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-4">
+    <div class="custom-card select-card">
+      <img src="https://via.placeholder.com/300x180" class="w-100">
+      <div class="checkbox-box"></div>
+      <p class="mt-2">商品名稱 B</p>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-4">
+    <div class="custom-card select-card">
+      <img src="https://via.placeholder.com/300x180" class="w-100">
+      <div class="checkbox-box"></div>
+      <p class="mt-2">商品名稱 C</p>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-4">
+    <div class="custom-card select-card">
+      <img src="https://via.placeholder.com/300x180" class="w-100">
+      <div class="checkbox-box"></div>
+      <p class="mt-2">商品名稱 D</p>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-4">
+    <div class="custom-card select-card">
+      <img src="https://via.placeholder.com/300x180" class="w-100">
+      <div class="checkbox-box"></div>
+      <p class="mt-2">商品名稱 E</p>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-4">
+    <div class="custom-card select-card">
+      <img src="https://via.placeholder.com/300x180" class="w-100">
+      <div class="checkbox-box"></div>
+      <p class="mt-2">商品名稱 F</p>
+    </div>
+  </div>
+
+</div>
+
+    <!-- 這裡放 JavaScript -->
+  <script>
+    // 讓右下角框框可以切換勾選
+    document.querySelectorAll('.checkbox-box').forEach(box => {
+      box.addEventListener('click', function (e) {
+        e.stopPropagation(); // 避免事件冒泡
+        this.classList.toggle('checked');
+        this.innerHTML = this.classList.contains('checked') ? '✔' : '';
+      });
+    });
+  </script>
+
+
+
+  <!-- 備註 -->
+  <div class="mt-4">
+    <textarea class="form-control" placeholder="備註：" rows="3"></textarea>
+  </div>
+
+<!-- 送出按鈕置中 + 金額靠右 -->
+<div class="d-flex justify-content-between align-items-center mt-4">
+
+  <!-- 左邊空白，讓按鈕能置中 -->
+  <div style="width: 33%;"></div>
+
+  <!-- 置中按鈕 -->
+  <div class="text-center" style="width: 33%;">
+    <button class="btn btn-dark px-4">送 出</button>
+  </div>
+
+  <!-- 金額靠右 -->
+  <div class="text-end" style="width: 33%;">
+    <h5 class="m-0">金額：1000</h5>
+  </div>
+  
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Container for demo purpose -->
+<div class="container my-5 py-5 shadow-5">
+
+  <!--Section: Design Block-->
+  <section class="text-center">
+
+    <h3 class="mb-5">Contact us</h3>
+
+    <form>
+      <div class="row">
+        <div class="col-md-9">
+          <div class="row mb-4">
+            <div class="col-md-6 mb-4 mb-md-0">
+              <div class="form-outline" data-mdb-input-init>
+                <input type="text" id="form3Example1" class="form-control" />
+                <label class="form-label" for="form3Example1">First name</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-outline" data-mdb-input-init>
+                <input type="email" id="form3Example2" class="form-control" />
+                <label class="form-label" for="form3Example2">Email Address</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-outline mb-4" data-mdb-input-init>
+            <input type="text" id="form3Example3" class="form-control" />
+            <label class="form-label" for="form3Example3">Subject</label>
+          </div>
+          <div class="form-outline mb-4" data-mdb-input-init>
+            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+            <label class="form-label" for="form4Example3">Message</label>
+          </div>
+          <div class="text-center text-md-start">
+            <button type="submit" class="btn btn-primary mb-5 mb-md-0" data-mdb-ripple-init>
+              Send
+            </button>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <ul class="list-unstyled">
+            <li>
+              <i class="fas fa-map-marker-alt fa-2x text-primary"></i>
+              <p>New York, NY 10012, USA</p>
+            </li>
+            <li>
+              <i class="fas fa-phone fa-2x text-primary"></i>
+              <p>+ 01 234 567 89</p>
+            </li>
+            <li>
+              <i class="fas fa-envelope fa-2x text-primary"></i>
+              <p>contact@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </form>
+
+  </section>
+  <!--Section: Design Block-->
+
+</div>
+<!-- Container for demo purpose -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+  <!-- MDB ESSENTIAL -->
+  <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+  <!-- MDB PLUGINS -->
+  <script type="text/javascript" src="plugins/js/all.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</html>

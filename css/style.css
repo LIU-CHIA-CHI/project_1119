@@ -1,0 +1,56 @@
+.custom-card {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.check-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: white;
+  padding: 3px 6px;
+  border-radius: 50%;
+  font-weight: bold;
+  border: 1px solid #333;
+}
+
+
+
+
+
+
+
+
+
+
+.custom-card {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+/* 右下角的可勾選框 */
+.checkbox-box {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+/* 勾選時變 ✔ */
+.checkbox-box.checked {
+  background-color: #333;
+  color: white;
+}
