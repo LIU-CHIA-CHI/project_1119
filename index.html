@@ -18,14 +18,20 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
     />
     <!-- MDB ESSENTIAL -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="src/mdb/scss/mdb.pro.css" />
     <!-- MDB PLUGINS -->
     <link rel="stylesheet" href="plugins/css/all.min.css" />
     <!-- Custom styles -->
         <!--自定義-->
         <link rel="stylesheet" href="./css/style1.css" />
         <!-- Custom styles -->
-    <style></style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+
+      h2 {
+        font-family: "LXGW WenKai TC", cursive;
+      }
+    </style>
   </head>
 
 
@@ -232,7 +238,7 @@
           <div class="lightbox" data-mdb-lightbox-init>
             <div class="row text-center text-md-start">
               <div class="col-md-6 mb-4">
-                <img class="shadow-4 rounded-5 w-100 mb-4"
+                <img class="w-100 hover-shadow  rounded-5  mb-4"
                   src="./img/圓香菇.jpg"
                   data-mdb-img="./img/圓香菇.jpg" alt="香菇" />
                 <p class="text-start mb-3 h3">香菇</p>
@@ -243,7 +249,7 @@
                 </p>
               </div>
               <div class="col-md-6 mb-4">
-                <img class="shadow-4 rounded-5 w-100 mb-4"
+                <img class="w-100 hover-shadow  rounded-5  mb-4"
                   src="./img/木耳.jpg"
                   data-mdb-img="./img/木耳.jpg" alt="黑木耳" />
                 <h3 class="mb-3">黑木耳</h3>
@@ -264,7 +270,7 @@
           <div class="lightbox" data-mdb-lightbox-init>
             <div class="row text-center text-md-start">
               <div class="col-md-6 mb-4">
-                <img class="shadow-4 rounded-5 w-100 mb-4"
+                <img class="w-100 hover-shadow  rounded-5  mb-4"
                   src="./img/豬肉.jpg"
                   data-mdb-img="./img/豬肉.jpg" alt="豬肉" />
                               <p class="text-start mb-3 h3">豬肉</p>
@@ -348,8 +354,48 @@
 
 
 
+<!-- Container for demo purpose -->
+<div class="container my-5">
 
+  <!--Section: Design Block-->
+  <section class="mb-5">
+    <div class="row">
+      <div class="col-lg-6">
+        <p class="small text-muted">06/27/2022</p>
+        <h2 class="fw-bold mb-3">
+          <a href="#!" class="text-reset">The awesome beauty of the Eagle Nebula</a>
+        </h2>
+        <p class="text-muted">
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit anim id est laborum in reprehenderit.
+        </p>
+        <p class="small text-muted">
+          By <a href="#!" class="text-reset">Anne Lebovitz</a> and
+          <a href="#!" class="text-reset">Laura Kindovsky</a>
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <figure class="figure d-block mb-0">
+          <div class="bg-image hover-overlay hover-zoom rounded-6 mb-2">
+            <img class="w-100 rounded-6" src="https://mdbootstrap.com/img/new/blog/33.jpg"
+              style="object-fit: cover; height: 312px" alt="Article image" />
+            <a href="#!">
+              <div class="mask"></div>
+            </a>
+          </div>
+          <figcaption class="figure-caption">
+            Cluj-Napoca, Romania; Radu Chelariu for Unsplash
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <!--Section: Design Block-->
 
+  <hr class="divider-horizontal" style="margin-bottom: 3.5rem;">
+
+</div>
+<!-- Container for demo purpose -->
 
 
 
@@ -413,8 +459,11 @@
   <footer class="bg-primary text-center text-lg-start">
     <!-- Copyright -->
     <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      © 2020 Copyright:
-      <a class="text-white-50" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      <i class="fas fa-location-dot fa-lg"></i>地址:
+      <i class="fas fa-phone fa-lg"></i>電話:
+      <i class="fas fa-clock fa-lg"></i>營業時間:
+
+      <a class="text-white-50" href="https://mdbootstrap.com/">千子油飯</a>
     </div>
     <!-- Copyright -->
   </footer>
