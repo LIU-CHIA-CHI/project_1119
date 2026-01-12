@@ -26,11 +26,27 @@
         <link rel="stylesheet" href="./css/style1.css" />
         <!-- Custom styles -->
     <style>
+
+
+      @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+
+
+      @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+
       @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
 
       h2 {
         font-family: "LXGW WenKai TC", cursive;
       }
+
+      h1{
+         font-family: "LXGW WenKai TC", cursive;
+      }
+
+      p{
+        font-family: "LXGW WenKai TC", cursive;
+      }
+
     </style>
   </head>
 
@@ -69,36 +85,51 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#!">首頁</a>
+              <a class="nav-link active" aria-current="page" href="#" data-mdb-ripple-init role="button" aria-pressed="true" >首頁</a>
+
+
+
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#!">在地食材介紹</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#!">客製化訂單</a>
+              <a class="nav-link active" href="https://docs.google.com/forms/d/e/1FAIpQLSfAjSBebKl6fsSLCF4X_PQWbf8zMt2BlN9RP2pNAahNIsKC4g/viewform?usp=header">客製化訂單</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#!">回饋與建議</a>
+              <a class="nav-link active" href="https://docs.google.com/forms/d/1oTFx67IBzVDG0I83CwK-2Zg7IBFnoYNI6X92Jv0Lvhw/edit">回饋與建議</a>
             </li>
           </ul>
         </div>
       </div>
+
+    <div class="input-group rounded">
+      <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+        aria-describedby="search-addon" />
+      <span class="input-group-text border-0" id="search-addon">
+        <i class="fas fa-search"></i>
+      </span>
+    </div>
     </nav>
+
+
 
     <section>
       <div id="intro" class="bg-image"
-        style="background-image: url('https://mdbootstrap.com/img/Photos/new-templates/content-creator/img1.jpg'); height: 100vh;">
+        style="background-image: url('./img/油飯禮盒2.jpg'); height: 100vh;">
         <div class="mask" style="background-color: rgba(249, 195, 122, .2);">
           <div class="container d-flex justify-content-center align-items-center h-100">
             <div class="row w-100">
               <div class="col-xl-10 mx-auto">
                 <div class="card mask-custom text-white text-center" style="border-radius: .75rem;">
                   <div class="card-body p-5">
-                    <h1 class="mb-4">Digital Content Creator</h1>
-                    <p class="lead mb-4 pb-2 font-weight-normal">Content creation is the contribution of information to
-                      any media and most especially to digital media for</p>
-                    <button class="btn btn-primary shadow-3 btn-rounded btn-lg" data-mdb-ripple-init>Get
-                      started</button>
+                    <h1 class="mb-4">千 子 油 飯</h1>
+                    <p class="lead mb-4 pb-2 font-weight-normal">五十年老店</p>
+                    <a data-mdb-animation-init
+data-mdb-animation-start="onHover"
+data-mdb-animation-reset="true"
+data-mdb-animation="pulse" class="btn btn-primary shadow-3 btn-rounded btn-lg" ani data-mdb-ripple-init href="https://docs.google.com/forms/d/1MF9C0ZlpnnZu4uHXU9Uk9p5nZ0LcbakyIKuzu55tCo8/edit?ts=695e1989">立即訂購</a>
+                      <!-- <button class="btn btn-primary shadow-3 btn-rounded btn-lg"  data-mdb-ripple-init>立即訂購</button> -->
                   </div>
                 </div>
               </div>
@@ -144,15 +175,16 @@
 
 <div class="h-25 d-inline-block translucent-bg" style="width: 120px;">
 </div>
+
   <h2 class="text-start mb-3 h1">最新消息</h2>
-<div class="multi-carousel" data-mdb-multi-carousel-init>
+<div class="multi-carousel lightbox" data-mdb-lightbox-init data-mdb-multi-carousel-init>
   <div class="multi-carousel-inner">
     <div class="multi-carousel-item">
-      <img src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/1.webp" alt="Table Full of Spices"
+      <img src="./img/最新消息-端午節.jpg" alt="Table Full of Spices "
         class="w-100" />
     </div>
     <div class="multi-carousel-item">
-      <img src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/2.webp" alt="Winter Landscape" class="w-100" />
+      <img src="./img/最新消息-冬至.jpg" alt="Winter Landscape" class="w-100" />
     </div>
     <div class="multi-carousel-item">
       <img src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/3.webp" alt="View of the City in the Mountains"
@@ -255,7 +287,7 @@
                 <h3 class="mb-3">黑木耳</h3>
                   <p class=" mb-3 h4">
                   黑木耳是一種常見且營養豐富的食用菌類，生長於闊葉樹枯木上，因外形貼附於木材而得名 ，外觀呈深褐至黑色 質地薄而略帶皺褶，經泡水後會自然膨脹，轉為柔軟且富有彈性，外型完整、不易破碎。
-                  在口感上，黑木耳的特色是滑嫩中帶有脆彈感，咀嚼時清爽不黏膩，即使經過長時間拌炒或蒸炊，也能保持良好的結構，不易軟爛，風味本身清淡
+                  在口感上，黑木耳的特色是滑嫩中帶有脆彈感，咀嚼時清爽不黏膩，即使經過長時間拌炒或蒸炊，也能保持良好的結構，不易軟爛，風味本身清淡。
                 </p>
               </div>
             </div>
@@ -275,9 +307,9 @@
                   data-mdb-img="./img/豬肉.jpg" alt="豬肉" />
                               <p class="text-start mb-3 h3">豬肉</p>
                                 <p class=" mb-3 h4">
-                  台灣黑豬是台灣特有的原生品種，肉色較深，油花分佈細緻且不均勻，肉質緊實富有彈性，擁有獨特的香氣。
-                  由於黑豬的生長較慢，且多為放養，味道比起白豬更強烈，這使得黑豬肉在油飯中蒸炊後，更能釋放出豐富的肉香與油脂，口感更加Q彈有嚼勁。
-                  而且經過慢火蒸煮後，黑豬的油脂會逐漸融入飯粒，使油飯更加香濃、滋味十足，成為傳統油飯中的美味精華。
+                  三元豬(台灣白豬)是台灣市場上最常見的豬肉品種，又稱台灣白豬，由長白豬、杜洛克與約克夏豬三個品種的
+                  豬所混種而來。這種豬肉的肉質細嫩，油脂分佈均勻，口感柔軟且適合各種家常料理。三元豬的生長速度較快，且
+                  較為清淡、油脂不過多、瘦肉比例高這使得它更適合用於油飯中，蒸炊後不會過於油膩，保持了輕盈且順口的口感。
                 </p>
               </div>
               <div class="col-md-6 mb-4">
@@ -286,7 +318,7 @@
                   data-mdb-img="./img/長糯米.jpg" alt="糯米" />
                               <p class="text-start mb-3 h3">糯米</p>
                                 <p class=" mb-3 h4">
-                  台灣長糯米是台灣重要的傳統米種之一，主要栽培於中南部平原地
+                  長糯米是台灣重要的傳統米種之一，主要栽培於中南部平原地
                   區，如彰化、雲林與嘉義一帶，因氣候溫暖、水源穩定而品質出眾
                   。米粒修長飽滿、色澤自然，蒸煮後黏性佳卻不軟爛，口感Q彈且富有彈性，即使放涼仍能保持濕潤，不易乾硬。花蓮富米帶有淡淡的米香，味道溫潤，不會搶過其他食材風味，因此特別適合用於油飯、粽子與米糕等傳統料理。也因為穩定度高、成品質地細緻，常被用在彌月油飯與節慶宴席中，是講究口感與品質時的基礎食材。
                 </p>
@@ -360,13 +392,13 @@
   <section class="mb-5">
     <div class="row">
       <div class="col-lg-6">
-        <p class="small text-muted">關於我們</p>
+        <p class="text-muted h4 ">關於我們</p>
         <h2 class="fw-bold mb-3">
           <a href="#!" class="text-reset">品牌故事</a>
         </h2>
-        <p class="text-muted">
+        <p class="text-muted h5">
           傳承兩代的「千子油飯」，由我爺爺傳到我爸爸。當年爺爺用最簡單的木桶、最樸實的食材，一桶一桶帶著木桶的香氣與人情味的油飯，也做出了我們家的驕傲與招牌。
-          這份手藝沒有因為時代改變而被放下，而是被一代又一代接下來，越做越用心。
+          這份手藝沒有因為時代改變而被放下，而是被一代一代接下來，越做越用心。
 
           我們秉持著「誠實做料理、良心做食品」的初衷，堅持不加防腐劑、不隔夜、不混充，只做當天現做的新鮮油飯。每一次出攤，都是從前一晚開始忙起：蒸米、拌料、爆香、試味道，一步都不能馬虎。每到時節，凌晨時分，家人親戚
           陸續加入幫忙，一起把這份溫暖與傳統好味道分給大家。
@@ -376,7 +408,7 @@
           千子油飯，不只是一份油飯，更是從上一代老闆開始傳下來的堅持與驕傲，是一家人整夜不眠的付出，也是想要把「放心吃、吃得到幸福」的滋味，好好傳遞給你的心意。
         </p>
         <p class="small text-muted">
-           <a href="#!" class="text-reset"></a> 
+           <a href="#!" class="text-reset"></a>
           <a href="#!" class="text-reset"></a>
         </p>
       </div>
@@ -389,7 +421,7 @@
               <div class="mask"></div>
             </a>
           </div>
-          <figcaption class="figure-caption">
+          <figcaption class="text-muted h5">
            謝謝一路以來一直支持我們的客戶
           </figcaption>
         </figure>
@@ -465,11 +497,17 @@
   <footer class="bg-primary text-center text-lg-start">
     <!-- Copyright -->
     <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      <i class="fas fa-location-dot fa-lg"></i>地址:
-      <i class="fas fa-phone fa-lg"></i>電話:
-      <i class="fas fa-clock fa-lg"></i>營業時間:
+      <i class="fas fa-location-dot fa-lg"></i>地址:811高雄市楠梓區後昌新路55號
+      <div class="text-nowrap bd-highlight" style="width: 8rem"></div>
+      <i class="fas fa-phone fa-lg"></i>電話:0918168015
+      <div class="text-nowrap bd-highlight" style="width: 8rem"></div>
+      <i class="fas fa-clock fa-lg"></i>營業時間:Am:8.00-12.00  Pm:4.00-7.00
 
-      <a class="text-white-50" href="https://mdbootstrap.com/">千子油飯</a>
+      <a style="color: #3b5998;" href="https://www.facebook.com/p/%E9%AB%98%E9%9B%84-%E5%8D%83%E5%AD%90%E6%B2%B9%E9%A3%AF-%E5%BD%8C%E6%9C%88%E5%96%9C%E6%85%B6-100057360922124/?locale=zh_TW" role="button">
+  <i class="fab fa-facebook-f fa-lg"></i>
+</a>
+
+      <a class="text-white-50" href="https://www.google.com/maps/place/%E5%8D%83%E5%AD%90%E6%B2%B9%E9%A3%AF/data=!4m2!3m1!1s0x0:0x98b21e33a9c89366?sa=X&ved=1t:2428&ictx=111">千子油飯</a>
     </div>
     <!-- Copyright -->
   </footer>
