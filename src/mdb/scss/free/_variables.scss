@@ -635,8 +635,10 @@ $color-contrast-light: $white !default;
 $min-contrast-ratio: 2 !default;
 
 // scss-docs-start theme-color-variables
-$primary: #3b71ca !default;
-$secondary: #9fa6b2 !default;
+$primary: #f08a5d !default;
+$secondary: #FFF !default;
+$tertiary: #000000 !default;
+
 $success: #14a44d !default;
 $danger: #dc4c64 !default;
 $warning: #e4a11b !default;
